@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@theme{
+  --color-gold: #D4AF37;
+}
+@keyframes float {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.particle {
+  animation: float 4s ease-in-out infinite;
+}
